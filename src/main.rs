@@ -3,7 +3,7 @@ use serde_json;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let api_key = "*";
+    let api_key = "A3F3D7CD-02B1-4EC3-ACE4-001E647235F3";
     let base_url = "https://rest.coinapi.io";
     let asset_id_base = "BTC";
 
